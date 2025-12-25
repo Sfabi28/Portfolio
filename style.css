@@ -1,0 +1,64 @@
+body {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    font-family: monospace;
+    margin: 0;
+    padding: 20px;
+}
+
+#header {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #5dade2;
+}
+
+.user {
+    color: #00FF00;
+    font-weight: bold;
+}
+
+.points {
+    color: #FFFFFF;
+    margin: 0 2px;
+}
+
+.Portfolio {
+    color: #3399ff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+#commandInput {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    flex-grow: 1;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+a {
+    color: #00ff00;
+    text-decoration: underline;
+}
+
+a:hover {
+    background-color: #00ff00;
+    color: #000000;
+    text-decoration: none;
+}
+
+.history-line {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
